@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf8" />
+	<title>Home Quiz - No registration, no signup. Create and take free quizes.</title>
+	<link rel="stylesheet" href="defstyle.css" />
+</head>
+
+<body>
+
+	<div id="allcontainer">
+		<header class="headfoot">
+			<h1>Quiz HOME</h1>
+			<p>No registration, no signup. Create and take free quizes.</p>
+		</header>
+
+		<div id="tablecontainer">
+			<div id="tablerow">
+
+				<section id="main" class="sectionbox">
+
+					<article>
+						<h1>Create Own Quiz</h1>
+						<form method="POST" action="create_quiz.php">
+							<label for="Title">Quiz title : </label>
+							<input type="text" id="title" placeholder="eg physics ct2 d7a"name="title" required="please enter" /><br>
+
+							<input type="submit" value="Create" name="submit" /><br>
+						</form>
+					</article>
+
+					<article>
+						<h1>Results</h1>
+
+						<form method="POST" action="check_results.php">
+						<label for="Title">Result code : </label>
+						<input type="text" id="result_code" name="result_code" /><br>
+
+						<input type="submit" value="see" name="check_results" /><br>
+					</form>
+					</article>
+
+				</section>
+
+				<aside class="sectionbox">
+
+
+					<article>
+						<h1>Take Test</h1>
+						<form method="POST" action="take_test.php">
+						<label for="Title">Quiz code : </label>
+						<input type="text" id="quiz_code" name="quiz_code" /><br>
+
+						<input type="submit" value="test" name="submit" /><br>
+					</form>
+					</article>
+
+					<article>
+						<h1>About Us</h1>
+						Preeti<br>
+						Saili<br>
+						Kunal<br>
+						Vinit
+					</article>
+
+				</aside>
+
+			</div>
+		</div>
+
+		<footer class="headfoot">
+			<p>Copyright © 2017 VESP GROUP PROJECT. P-K-S-V </p>
+		</footer>
+
+	</div>
+
+</body>
+
+</html>

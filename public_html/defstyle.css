@@ -1,0 +1,196 @@
+body {
+    background-color: #453024;
+    /*font-size: 1.1em;*/
+}
+
+article {
+    padding: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color: #DBC497;
+    margin: 20px;
+    border: 2px solid black;
+}
+
+table {
+    /*border: 1px solid black;*/
+    font-weight: bolder;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td {}
+
+h1 {
+    font: 1.3em;
+}
+
+.codes {
+    background-color: white;
+    color: red;
+    font-size: 1.2em;
+    border-radius: 2px;
+    border-style: dashed;
+    border-color: brown;
+}
+
+.sixty {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+}
+
+#question_maker {
+    background-color: #b7db97;
+    font-size: 1.1em;
+}
+
+#allcontainer {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#tablecontainer {
+    display: table;
+    border-spacing: 5px;
+    width: 100%;
+}
+
+#tablerow {
+    display: table-row;
+}
+
+.sectionbox {
+    padding: 10px;
+    background-color: #A68572;
+    border: 2px solid black;
+}
+
+aside {
+    display: table-cell;
+    width: 40%;
+}
+
+#main {
+    display: table-cell;
+}
+
+.headfoot {
+    /*background-color: #fc6270;*/
+    background-color: #591E23;
+    padding: 10px;
+    color: #F2D8A7;
+    border: 2px solid black;
+}
+
+header {}
+
+footer {
+    text-align: center;
+    font-size: 0.95em;
+}
+
+a, a:link, a:visited, a:hover, a:active {
+    color: green;
+    text-decoration: none;
+}
+
+
+/*Question box*/
+
+.leftfloater {
+    float: left;
+}
+
+.qcontainer {
+    background-color: #713f26;
+    padding: 10px;
+    color: #F2D8A7;
+    border: 2px solid black;
+}
+
+.inqcontainer {
+    margin-left: 30px;
+}
+
+.qbox, .optionbox {
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border: 1px solid black;
+    padding-left: 5px;
+    margin: 1px;
+    background-color: #b07452;
+}
+
+.qbox {
+    font-size: 1.3em;
+}
+
+.optionbox {
+    font-size: 1.2em;
+    width: 70%;
+}
+
+
+/*checkboxes */
+
+input[type='checkbox'] {
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    background: white;
+    border-radius: 5px;
+    border: 2px solid #f2f2f2;
+}
+
+input[type='checkbox']:checked {
+    background: #a6051d;
+}
+
+//result wala table kaa
+.tg {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border-color: #aaa;
+    text-align: center;
+}
+
+.tg td {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    padding: 10px 5px;
+    border-style: solid;
+    border-width: 0px;
+    overflow: hidden;
+    word-break: normal;
+    border-color: #aaa;
+    color: #333;
+    background-color: #fff;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    text-align: center;
+}
+
+.tg th {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 10px 5px;
+    border-style: solid;
+    border-width: 0px;
+    overflow: hidden;
+    word-break: normal;
+    border-color: #aaa;
+    color: #fff;
+    background-color: #f38630;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    text-align: center;
+}
+
+.tg .tg-z2zr {
+  text-align: center;
+    background-color: #eddaba
+}
