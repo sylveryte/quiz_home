@@ -2,7 +2,7 @@
 
 //echo 'db connecting...';
 
-DEFINE('DB_USER','preeti');
+DEFINE('DB_USER','root');
 DEFINE('DB_PASSWORD','pretty');
 DEFINE('DB_NAME','tree');
 DEFINE('DB_HOST','localhost');

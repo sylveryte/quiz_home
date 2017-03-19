@@ -2,6 +2,8 @@
 session_start();
   require_once('../mysqli_connect.php');
 
+   $_POST = array_map("trim", $_POST);
+
   $quiz_code=$_POST["quiz_code"];
   if($quiz_code)
     $_SESSION["quiz_code_for_check"]=$quiz_code;

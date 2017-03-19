@@ -15,6 +15,7 @@
 			<h1>Quiz Results</h1>
       <p>
       <?php
+      $_POST = array_map("trim", $_POST);
       if(isset($_POST['check_results']))
       {
 				$result_code=$_POST["result_code"];
